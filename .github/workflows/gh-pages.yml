@@ -1,11 +1,9 @@
 # Deploy your Hyas site to GitHub Pages
-
 name: GitHub Pages
-
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
